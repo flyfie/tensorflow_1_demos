@@ -7,7 +7,7 @@ from emotion_data_reader import run
 FLAGS = tf.flags.FLAGS
 tf.flags.DEFINE_string("data_dir", "./data/emotion_detection/emotion.bin", "Path to data files")
 
-tf.flags.DEFINE_string("logs_dir", "./model/EmotionDetector_logs/", "Path to where log files are to be saved")
+tf.flags.DEFINE_string("logs_dir", "../model/EmotionDetector_logs/", "Path to where log files are to be saved")
 tf.flags.DEFINE_string("mode", "train", "mode: train (Default)/ test")
 
 BATCH_SIZE = 128
